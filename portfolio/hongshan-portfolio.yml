@@ -3,9 +3,9 @@ method: searched
 source: https://www.hsgcap.com/companies/
 summary:
   portfolio_total: 101
-  in_network: 11
-  api_providers: 4
-  missing: 90
+  in_network: 101
+  api_providers: 10
+  missing: 0
   stubs_created: 0
 companies:
 - name: AbelZeta Pharma
@@ -15,9 +15,10 @@ companies:
   stage: unknown
   status: active
   source: https://www.hsgcap.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: abelzeta-pharma
+  slug: abelzeta-pharma
+  matched_by: name-slug
 - name: Agile Robots
   description: Agile Robots is an international high-tech company based in Munich. A spin-off of the German
     Aerospace Center (DLR), Agile Robots is pushing the boundaries of robotics.
@@ -25,9 +26,10 @@ companies:
   stage: unknown
   status: active
   source: https://www.hsgcap.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: agile-robots
+  slug: agile-robots
+  matched_by: name-slug
 - name: Airwallex
   description: Airwallex is a leading global financial platform for modern businesses, offering trusted
     solutions to handle everything from payments, treasury, spend management and embedded finance.
@@ -60,9 +62,10 @@ companies:
   stage: unknown
   status: ipo
   source: https://www.hsgcap.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: amer-sports
+  slug: amer-sports
+  matched_by: domain
 - name: AMI Paris
   description: AMI is a luxury apparel house for men and women.
   url: https://amiparis.com
@@ -70,18 +73,20 @@ companies:
   stage: unknown
   status: active
   source: https://www.hsgcap.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ami-paris
+  slug: ami-paris
+  matched_by: domain
 - name: ANDPAD
   description: ANDPAD is a leading Japanese vertical SaaS provider in the construction industry.
   sector: technology
   stage: unknown
   status: active
   source: https://www.hsgcap.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: andpad
+  slug: andpad
+  matched_by: name-slug
 - name: Ant Group
   description: Ant Group is a cloud-based financial platform that provides cloud computing services to
     financial enterprises and payment/financial services to consumers.
@@ -90,9 +95,10 @@ companies:
   stage: unknown
   status: ipo
   source: https://www.hsgcap.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ant-group
+  slug: ant-group
+  matched_by: domain
 - name: ArriVent Biopharma
   description: ArriVent BioPharma is a clinical stage biopharmaceutical company dedicated to the identification,
     development and commercialization of differentiated medicines to address the unmet medical needs of
@@ -101,9 +107,10 @@ companies:
   stage: unknown
   status: ipo
   source: https://www.hsgcap.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: arrivent-biopharma
+  slug: arrivent-biopharma
+  matched_by: name-slug
 - name: Asymchem
   description: Asymchem provides R&D and one-stop production services to the world’s top pharmaceutical
     companies.
@@ -111,9 +118,10 @@ companies:
   stage: unknown
   status: ipo
   source: https://www.hsgcap.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: asymchem
+  slug: asymchem
+  matched_by: name-slug
 - name: Aventon
   description: Aventon is one of the world’s leading and most innovative bicycle manufacturers and retailers.
   url: https://aventon.com
@@ -121,9 +129,10 @@ companies:
   stage: unknown
   status: active
   source: https://www.hsgcap.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: aventon
+  slug: aventon
+  matched_by: domain
 - name: B612
   description: B612 is an all-in-one camera & photo/video editing app, offering a variety of free features
     and tools to make every moment special.
@@ -131,9 +140,10 @@ companies:
   stage: unknown
   status: active
   source: https://www.hsgcap.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: b612
+  slug: b612
+  matched_by: name-slug
 - name: Babycare
   description: Babycare supplies design-forward products for parents, newborns and toddlers.
   url: https://babycare.cn
@@ -141,9 +151,10 @@ companies:
   stage: unknown
   status: active
   source: https://www.hsgcap.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: babycare
+  slug: babycare
+  matched_by: domain
 - name: Barinthus Biotherapeutics
   description: Barinthus Biotherapeutics plc is a clinical-stage biopharmaceutical company developing
     novel T cell immunotherapeutics that guide the immune system to overcome chronic infectious diseases,
@@ -152,9 +163,10 @@ companies:
   stage: unknown
   status: ipo
   source: https://www.hsgcap.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: barinthus-biotherapeutics
+  slug: barinthus-biotherapeutics
+  matched_by: name-slug
 - name: Beam Therapeutics
   description: Beam Therapeutics is a biotechnology company engaged in creating genetic medicines through
     its base editing technology.
@@ -163,9 +175,10 @@ companies:
   stage: unknown
   status: ipo
   source: https://www.hsgcap.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: beam-therapeutics
+  slug: beam-therapeutics
+  matched_by: domain
 - name: Beike
   description: Beike is the leading integrated online and offline platform for housing transactions and
     services.
@@ -174,9 +187,10 @@ companies:
   stage: unknown
   status: ipo
   source: https://www.hsgcap.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: beike
+  slug: beike
+  matched_by: domain
 - name: Bitmain
   description: BITMAIN is the world’s leading manufacturer of digital asset mining servers through its
     brand, ANTMINER.
@@ -185,9 +199,10 @@ companies:
   stage: unknown
   status: active
   source: https://www.hsgcap.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: bitmain
+  slug: bitmain
+  matched_by: domain
 - name: Boss
   description: BOSS Zhipin, operated by KANZHUN LIMITED, is the leading online recruitment platform in
     China.
@@ -196,9 +211,10 @@ companies:
   stage: unknown
   status: ipo
   source: https://www.hsgcap.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: boss
+  slug: boss
+  matched_by: domain
 - name: Busy Ming Group
   description: Busy Ming Group is a leading Chinese snack and beverage retailer operating the Busy for
     You and Super Ming brands through a nationwide network of value retail stores.
@@ -206,9 +222,10 @@ companies:
   stage: unknown
   status: active
   source: https://www.hsgcap.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: busy-ming-group
+  slug: busy-ming-group
+  matched_by: name-slug
 - name: BYD
   description: Founded in 1995, BYD is a global technology leader in the electronics, automotive, renewable
     energy, and rail transit industries.
@@ -217,9 +234,10 @@ companies:
   stage: unknown
   status: ipo
   source: https://www.hsgcap.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: byd
+  slug: byd
+  matched_by: domain
 - name: ByteDance
   description: ByteDance is a technology company operating a range of content platforms that inform, educate,
     entertain and inspire people across languages, cultures and geographies.
@@ -228,9 +246,10 @@ companies:
   stage: unknown
   status: active
   source: https://www.hsgcap.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: bytedance
+  slug: bytedance
+  matched_by: domain
 - name: Canva
   description: Canva is an online design platform that makes it simple for anyone to create their own
     designs.
@@ -249,9 +268,10 @@ companies:
   stage: unknown
   status: active
   source: https://www.hsgcap.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: chi-forest
+  slug: chi-forest
+  matched_by: name-slug
 - name: CHINT
   description: Founded in 1984, CHINT is a global green energy leader that accelerates innovation to meet
     the sustainability goals of businesses, governments, and communities.
@@ -259,9 +279,10 @@ companies:
   stage: unknown
   status: active
   source: https://www.hsgcap.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: chint
+  slug: chint
+  matched_by: name-slug
 - name: Country Style Cooking
   description: Country Style Cooking Restaurant Chain Co., Ltd (a.k.a. *CSC*) is a fast-growing quick
     service restaurant chain in China, offering consistently tasty, everyday Chinese food to customers
@@ -270,9 +291,10 @@ companies:
   stage: unknown
   status: active
   source: https://www.hsgcap.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: country-style-cooking
+  slug: country-style-cooking
+  matched_by: name-slug
 - name: Dada
   description: 'Dada (NASDAQ: DADA) is a leading platform for on-demand retail and delivery in China.'
   url: https://imdada.cn
@@ -280,9 +302,10 @@ companies:
   stage: unknown
   status: ipo
   source: https://www.hsgcap.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: dada
+  slug: dada
+  matched_by: domain
 - name: Delivery Hero
   description: Delivery Hero is an online food delivery provider and active delivery service headquartered
     in Germany.
@@ -291,18 +314,20 @@ companies:
   stage: unknown
   status: ipo
   source: https://www.hsgcap.com/companies/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: delivery-hero
+  in_network: true
+  is_api_provider: true
+  slug: delivery-hero
+  matched_by: domain
 - name: Deppon Express
   description: Deppon provides multiple, flexible, and efficient logistics options to cross-industry customers.
   sector: consumer
   stage: unknown
   status: active
   source: https://www.hsgcap.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: deppon-express
+  slug: deppon-express
+  matched_by: name-slug
 - name: Dewu (POIZON)
   description: Dewu (POIZON) is a fashion marketplace that curates global styles in extensive categories
     including shoes, clothing, luxury, and more.
@@ -311,9 +336,10 @@ companies:
   stage: unknown
   status: active
   source: https://www.hsgcap.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: dewu-poizon
+  slug: dewu-poizon
+  matched_by: domain
 - name: Dingdong
   description: Dingdong is a leading on-demand e-commerce company in China, providing users and households
     with fresh produce, meat and seafood and other daily necessities through a convenient shopping experience
@@ -323,9 +349,10 @@ companies:
   stage: unknown
   status: active
   source: https://www.hsgcap.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: dingdong
+  slug: dingdong
+  matched_by: domain
 - name: Dizal Pharma
   description: Dizal Pharma is biopharmaceutical company dedicated to the discovery, development, and
     commercialization of differentiated therapeutics for the treatment of cancer and immunological diseases.
@@ -333,9 +360,10 @@ companies:
   stage: unknown
   status: ipo
   source: https://www.hsgcap.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: dizal-pharma
+  slug: dizal-pharma
+  matched_by: name-slug
 - name: EcoFlow
   description: EcoFlow is an eco-friendly energy solutions company. Since its founding in 2017, EcoFlow
     has provided peace of mind to customers in over 100 markets through its DELTA and RIVER portable power
@@ -346,18 +374,20 @@ companies:
   stage: unknown
   status: active
   source: https://www.hsgcap.com/companies/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: ecoflow
+  in_network: true
+  is_api_provider: true
+  slug: ecoflow
+  matched_by: domain
 - name: Edge Medical
   description: Edge Medical is one of the fastest growing Medical Device Distributors.
   sector: healthcare
   stage: unknown
   status: active
   source: https://www.hsgcap.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: edge-medical
+  slug: edge-medical
+  matched_by: name-slug
 - name: Envision Energy
   description: Envision Energy is a world-leading green technology company, providing renewable energy
     system solutions for global enterprises and institutions.
@@ -366,9 +396,10 @@ companies:
   stage: unknown
   status: active
   source: https://www.hsgcap.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: envision-energy
+  slug: envision-energy
+  matched_by: domain
 - name: Fiture
   description: As the leader in at-home smart fitness industry, FITURE is committed to applying cutting-edge
     technology into the fitness and wellness, aiming to provide its users creative and personalized contents
@@ -379,9 +410,10 @@ companies:
   stage: unknown
   status: active
   source: https://www.hsgcap.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: fiture
+  slug: fiture
+  matched_by: domain
 - name: Full Truck Alliance
   description: Full Truck Alliance is a leading digital freight platform in China, connecting shippers
     with truckers to facilitate shipments across all distance ranges, cargo weights and types.
@@ -390,9 +422,10 @@ companies:
   stage: unknown
   status: ipo
   source: https://www.hsgcap.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: full-truck-alliance
+  slug: full-truck-alliance
+  matched_by: domain
 - name: Futu
   description: 'Futu (Nasdaq: FUTU) is an advanced technology company transforming the investing experience
     by offering a fully digitized brokerage and wealth management platform.'
@@ -401,9 +434,10 @@ companies:
   stage: unknown
   status: ipo
   source: https://www.hsgcap.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: futu
+  slug: futu
+  matched_by: domain
 - name: Genesis Medtech
   description: Genesis MedTech Group is a medical device company.
   url: https://genesismedtech.com
@@ -411,18 +445,20 @@ companies:
   stage: unknown
   status: active
   source: https://www.hsgcap.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: genesis-medtech
+  slug: genesis-medtech
+  matched_by: domain
 - name: Goodme
   description: Goodme is a Chinese milk tea chain.
   sector: consumer
   stage: unknown
   status: active
   source: https://www.hsgcap.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: goodme
+  slug: goodme
+  matched_by: name-slug
 - name: Guazi
   description: Guazi is a Chinese e-commerce company that provides consumer-to-consumer services via its
     web portal for buying and selling used cars.
@@ -431,9 +467,10 @@ companies:
   stage: unknown
   status: active
   source: https://www.hsgcap.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: guazi
+  slug: guazi
+  matched_by: domain
 - name: Halara
   description: Halara is one of the world’s fastest growing online athleisure brands, with cult-favorite
     products across social media.
@@ -442,9 +479,10 @@ companies:
   stage: unknown
   status: active
   source: https://www.hsgcap.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: halara
+  slug: halara
+  matched_by: name-slug
 - name: Heytea
   description: HEYTEA is the originator of innovative tea beverages.
   url: https://heytea.com
@@ -452,9 +490,10 @@ companies:
   stage: unknown
   status: active
   source: https://www.hsgcap.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: heytea
+  slug: heytea
+  matched_by: domain
 - name: Hong Kong Asia Medical Group
   description: Hong Kong Asia Medical Group is one of Asia’s leading specialists in the treatment of cardiovascular
     disease.
@@ -462,9 +501,10 @@ companies:
   stage: unknown
   status: active
   source: https://www.hsgcap.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: hong-kong-asia-medical-group
+  slug: hong-kong-asia-medical-group
+  matched_by: name-slug
 - name: Hongene Biotech
   description: Hongene Biotech is a manufacturer of nucleoside and nucleotide products intended to support
     molecular biology-based research for biotech companies.
@@ -472,9 +512,10 @@ companies:
   stage: unknown
   status: active
   source: https://www.hsgcap.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: hongene-biotech
+  slug: hongene-biotech
+  matched_by: name-slug
 - name: HTX
   description: Founded in 2013, HTX is a comprehensive ecosystem of blockchain businesses that span digital
     asset trading, financial derivatives, wallets, research, investment, incubation and other areas.
@@ -483,9 +524,10 @@ companies:
   stage: unknown
   status: active
   source: https://www.hsgcap.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: htx
+  slug: htx
+  matched_by: domain
 - name: Innovent
   description: Innovent (01801.HK) is committed to developing, manufacturing and commercializing high-quality
     innovative medicines for the treatment of cancer, as well as autoimmune, metabolic, ophthalmologic
@@ -495,9 +537,10 @@ companies:
   stage: unknown
   status: ipo
   source: https://www.hsgcap.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: innovent
+  slug: innovent
+  matched_by: domain
 - name: iQIYI
   description: iQIYI, Inc. is a leading provider of online entertainment video services in China.
   url: https://iqiyi.com
@@ -505,9 +548,10 @@ companies:
   stage: unknown
   status: ipo
   source: https://www.hsgcap.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: iqiyi
+  slug: iqiyi
+  matched_by: domain
 - name: J&T Express
   description: J&T Express is a global logistics service provider with leading express delivery businesses
     in Southeast Asia and China.
@@ -516,9 +560,10 @@ companies:
   stage: unknown
   status: active
   source: https://www.hsgcap.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: j-and-t-express
+  slug: j-and-t-express
+  matched_by: domain
 - name: JD Business
   description: JD Business is dedicated to advancing the digital transformation of the industrial supply
     chain, encompassing all aspects from product selection and procurement to fulfillment and operations.
@@ -526,9 +571,10 @@ companies:
   stage: unknown
   status: active
   source: https://www.hsgcap.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: jd-business
+  slug: jd-business
+  matched_by: name-slug
 - name: JD Technology
   description: JD Technology (JDT) is a business group within JD.com with a focus on serving corporate
     clients through technology services and solutions, helping enterprises reduce supply chain costs and
@@ -537,9 +583,10 @@ companies:
   stage: unknown
   status: active
   source: https://www.hsgcap.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: jd-technology
+  slug: jd-technology
+  matched_by: name-slug
 - name: JD.com
   description: JD.com is a leading supply chain-based technology and service provider.
   url: https://jd.com
@@ -547,7 +594,7 @@ companies:
   stage: unknown
   status: ipo
   source: https://www.hsgcap.com/companies/
-  slug: jd-com
+  slug: jd-business
   in_network: true
   is_api_provider: false
   matched_by: domain
@@ -557,9 +604,10 @@ companies:
   stage: unknown
   status: active
   source: https://www.hsgcap.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: junlebao
+  slug: junlebao
+  matched_by: name-slug
 - name: Kayou
   description: Kayou is a manufacturer of consumer toys, including action figures, trading cards, and
     stationery products.
@@ -568,9 +616,10 @@ companies:
   stage: unknown
   status: active
   source: https://www.hsgcap.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: kayou
+  slug: kayou
+  matched_by: domain
 - name: Klook
   description: Klook is Asia’s leading platform for experiences and travel services.
   url: https://klook.com
@@ -578,9 +627,10 @@ companies:
   stage: unknown
   status: active
   source: https://www.hsgcap.com/companies/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: klook
+  in_network: true
+  is_api_provider: true
+  slug: klook
+  matched_by: domain
 - name: Kuaishou
   description: Kuaishou is a leading content community and social platform with a mission to be the most
     customer-obsessed company in the world.
@@ -589,9 +639,10 @@ companies:
   stage: unknown
   status: ipo
   source: https://www.hsgcap.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: kuaishou
+  slug: kuaishou
+  matched_by: domain
 - name: Kurly
   description: Kurly is a South Korean e-commerce platform specializing in groceries, cosmetics, and household
     goods.
@@ -600,9 +651,10 @@ companies:
   stage: unknown
   status: ipo
   source: https://www.hsgcap.com/companies/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: kurly
+  in_network: true
+  is_api_provider: true
+  slug: kurly
+  matched_by: domain
 - name: Lalamove
   description: Lalamove is an on-demand delivery platform with a mission to empower communities by making
     delivery fast, simple and affordable.
@@ -611,9 +663,10 @@ companies:
   stage: unknown
   status: active
   source: https://www.hsgcap.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: lalamove
+  slug: lalamove
+  matched_by: domain
 - name: Leapmotor
   description: Leapmotor is a technology-driven intelligent EV company with a full suite of R&D capabilities.
   url: https://leapmotor.com
@@ -621,9 +674,10 @@ companies:
   stage: unknown
   status: ipo
   source: https://www.hsgcap.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: leapmotor
+  slug: leapmotor
+  matched_by: domain
 - name: LegalOn
   description: LegalOn is a global leader in AI for in-house legal teams.
   url: https://legalontech.jp
@@ -631,9 +685,10 @@ companies:
   stage: unknown
   status: active
   source: https://www.hsgcap.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: legalon
+  slug: legalon
+  matched_by: domain
 - name: LianLian Global
   description: LianLian Global is a leading cross-border payments company that connects local sellers
     to global opportunities.
@@ -642,18 +697,20 @@ companies:
   stage: unknown
   status: active
   source: https://www.hsgcap.com/companies/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: lianlian-global
+  in_network: true
+  is_api_provider: true
+  slug: lianlian-global
+  matched_by: domain
 - name: Linsy
   description: LINSY brings consumers a wide range of choices and flexibility in home decoration.
   sector: consumer
   stage: unknown
   status: active
   source: https://www.hsgcap.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: linsy
+  slug: linsy
+  matched_by: name-slug
 - name: Luxvisions
   description: Luxvisions Innovation Group was established in July 2018, and it has become an important
     business ally of Luxshare-ICT Precision Group. With the development of future AIOT applications, 3D
@@ -663,9 +720,10 @@ companies:
   stage: unknown
   status: active
   source: https://www.hsgcap.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: luxvisions
+  slug: luxvisions
+  matched_by: name-slug
 - name: Marshall
   description: Marshall is an audio, tech, and design company uniting musicians and music lovers through
     genre-breaking innovation.
@@ -674,18 +732,20 @@ companies:
   stage: unknown
   status: active
   source: https://www.hsgcap.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: marshall
+  slug: marshall
+  matched_by: domain
 - name: Marssenger
   description: Marssenger is an integrated stove brand.
   sector: consumer
   stage: unknown
   status: active
   source: https://www.hsgcap.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: marssenger
+  slug: marssenger
+  matched_by: name-slug
 - name: Meituan
   description: Meituan is a leading technology-driven retail company in China. Service offerings on its
     platform address people’s daily needs for food and retail goods and extend further to broad lifestyle
@@ -695,9 +755,10 @@ companies:
   stage: unknown
   status: ipo
   source: https://www.hsgcap.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: meituan
+  slug: meituan
+  matched_by: domain
 - name: Miracle Miles
   description: Miracle Miles is a footwear and clothing enterprise, spanning DreamPairs, Bruno Marc, Nortiv8
     and other independent brands.
@@ -705,9 +766,10 @@ companies:
   stage: unknown
   status: active
   source: https://www.hsgcap.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: miracle-miles
+  slug: miracle-miles
+  matched_by: name-slug
 - name: Moderna
   description: Moderna is a public commercial-stage biotech company.
   url: https://modernatx.com
@@ -727,7 +789,7 @@ companies:
   stage: unknown
   status: active
   source: https://www.hsgcap.com/companies/
-  slug: neobanks
+  slug: monzo
   in_network: true
   is_api_provider: false
   matched_by: domain
@@ -739,9 +801,10 @@ companies:
   stage: unknown
   status: ipo
   source: https://www.hsgcap.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: musinsa
+  slug: musinsa
+  matched_by: domain
 - name: Nio
   description: NIO Inc. is a pioneer and a leading company in the premium smart electric vehicle market.
   url: https://nio.com
@@ -761,9 +824,10 @@ companies:
   stage: unknown
   status: active
   source: https://www.hsgcap.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: noah-medical
+  slug: noah-medical
+  matched_by: domain
 - name: Novotech
   description: Novotech is the leading Asia Pacific centred biotech contract research organization (CRO).
   url: https://novotech-cro.com
@@ -771,9 +835,10 @@ companies:
   stage: unknown
   status: ipo
   source: https://www.hsgcap.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: novotech
+  slug: novotech
+  matched_by: domain
 - name: Patsnap
   description: Founded in 2007, Patsnap is a leader in IP and R&D intelligence.
   url: https://patsnap.com
@@ -781,9 +846,10 @@ companies:
   stage: unknown
   status: active
   source: https://www.hsgcap.com/companies/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: patsnap
+  in_network: true
+  is_api_provider: true
+  slug: patsnap
+  matched_by: domain
 - name: Pinduoduo
   description: PDD Holdings is a multinational commerce group that owns and operates a portfolio of businesses,
     including Temu, an e-commerce marketplace for North American consumers, and Pinduoduo, a leading social
@@ -793,9 +859,10 @@ companies:
   stage: unknown
   status: ipo
   source: https://www.hsgcap.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: pinduoduo
+  slug: pinduoduo
+  matched_by: domain
 - name: PingCAP
   description: PingCAP is an open-source distributed (HTAP) database software developer used to serve
     as a one-stop service for online transactions.
@@ -828,9 +895,10 @@ companies:
   stage: unknown
   status: ipo
   source: https://www.hsgcap.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: pop-mart
+  slug: pop-mart
+  matched_by: domain
 - name: ProfoundBio
   description: ProfoundBio is a clinical stage biotherapeutics company focused on the development of novel
     antibody-based therapeutics with curative potential for patients with cancer.
@@ -838,9 +906,10 @@ companies:
   stage: unknown
   status: active
   source: https://www.hsgcap.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: profoundbio
+  slug: profoundbio
+  matched_by: name-slug
 - name: RedNote (Xiaohongshu)
   description: Xiaohongshu is a lifestyle platform that inspires people to discover and connect with a
     range of diverse lifestyles.
@@ -849,9 +918,10 @@ companies:
   stage: unknown
   status: active
   source: https://www.hsgcap.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: rednote-xiaohongshu
+  slug: rednote-xiaohongshu
+  matched_by: domain
 - name: RIVR
   description: RIVR is a Swiss robotics company pioneering Physical AI and robotic solutions to revolutionize
     last-mile delivery.
@@ -859,18 +929,20 @@ companies:
   stage: unknown
   status: active
   source: https://www.hsgcap.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: rivr
+  slug: rivr
+  matched_by: name-slug
 - name: Saturnbird Coffee
   description: Saturnbird Coffee is a specialty coffee brand.
   sector: consumer
   stage: unknown
   status: active
   source: https://www.hsgcap.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: saturnbird-coffee
+  slug: saturnbird-coffee
+  matched_by: name-slug
 - name: Segway-Ninebot
   description: Segway-Ninebot is a global enterprise in the field of intelligent short-distance transportation
     and service robots.
@@ -879,9 +951,10 @@ companies:
   stage: unknown
   status: ipo
   source: https://www.hsgcap.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: segway-ninebot
+  slug: segway-ninebot
+  matched_by: domain
 - name: SHEIN
   description: SHEIN is a global online fashion and lifestyle retailer with a mission to make the beauty
     of fashion accessible to all.
@@ -890,9 +963,10 @@ companies:
   stage: unknown
   status: active
   source: https://www.hsgcap.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: shein
+  slug: shein
+  matched_by: domain
 - name: Silicon Therapeutics
   description: Silicon Therapeutics is a computational drug discovery platform focusing on reinventing
     drug discovery, development, and commercialization.
@@ -900,18 +974,20 @@ companies:
   stage: unknown
   status: active
   source: https://www.hsgcap.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: silicon-therapeutics
+  slug: silicon-therapeutics
+  matched_by: name-slug
 - name: Simple Love Yogurt
   description: Simple Love Yogurt is a producer and distributor of dairy products in China.
   sector: consumer
   stage: unknown
   status: active
   source: https://www.hsgcap.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: simple-love-yogurt
+  slug: simple-love-yogurt
+  matched_by: name-slug
 - name: Structure Therapeutics
   description: Structure Therapeutics Inc is a clinical-stage biopharmaceutical company aiming to develop
     and deliver novel oral therapeutics to treat a wide range of chronic diseases with unmet medical needs.
@@ -920,9 +996,10 @@ companies:
   stage: unknown
   status: ipo
   source: https://www.hsgcap.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: structure-therapeutics
+  slug: structure-therapeutics
+  matched_by: domain
 - name: ThatGameCompany
   description: thatgamecompany is an independent game studio dedicated to creating timeless interactive
     entertainment that inspires human connection.
@@ -931,9 +1008,10 @@ companies:
   stage: unknown
   status: active
   source: https://www.hsgcap.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: thatgamecompany
+  slug: thatgamecompany
+  matched_by: domain
 - name: Toss
   description: Toss is Korea’s first P2P money transfer service. The platform has become one of the world’s
     fastest growing financial apps.
@@ -953,9 +1031,10 @@ companies:
   stage: unknown
   status: active
   source: https://www.hsgcap.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tuhu-car
+  slug: tuhu
+  matched_by: domain
 - name: Ubras
   description: Ubras, founded in 2016, is a global brand of women’s intimate clothing designed to be a
     simple and comfortable wearing experience.
@@ -963,9 +1042,10 @@ companies:
   stage: unknown
   status: active
   source: https://www.hsgcap.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ubras
+  slug: ubras
+  matched_by: name-slug
 - name: Univers
   description: Univers is a global decarbonization technology leader.
   url: https://univers.com
@@ -973,9 +1053,10 @@ companies:
   stage: unknown
   status: active
   source: https://www.hsgcap.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: univers
+  slug: univers
+  matched_by: domain
 - name: Urban Revivo
   description: Urban Revivo is an everyday premium trendy brand that began in 2006 with the mission of
     improving people’s lives through fashion.
@@ -983,9 +1064,10 @@ companies:
   stage: unknown
   status: active
   source: https://www.hsgcap.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: urban-revivo
+  slug: urban-revivo
+  matched_by: name-slug
 - name: Vipshop
   description: Vipshop is a leading online discount retailer for brands in China.
   url: https://vip.com
@@ -993,18 +1075,20 @@ companies:
   stage: unknown
   status: ipo
   source: https://www.hsgcap.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: vipshop
+  slug: vipshop
+  matched_by: domain
 - name: WE11DONE
   description: WE11DONE is a Seoul-based fashion brand.
   sector: consumer
   stage: unknown
   status: active
   source: https://www.hsgcap.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: we11done
+  slug: we11done
+  matched_by: name-slug
 - name: Webull
   description: Webull is a leading digital investment platform built on next generation global infrastructure.
   url: https://webull.com
@@ -1012,9 +1096,10 @@ companies:
   stage: unknown
   status: ipo
   source: https://www.hsgcap.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: webull
+  slug: webull
+  matched_by: domain
 - name: Woowa Brothers
   description: Woowa Brothers is an online application offering on-demand food deliveries.
   url: https://woowahan.com
@@ -1022,9 +1107,10 @@ companies:
   stage: unknown
   status: active
   source: https://www.hsgcap.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: woowa-brothers
+  slug: woowa-brothers
+  matched_by: domain
 - name: Xpeng
   description: XPeng is a leading Chinese Smart EV company that designs, develops, manufactures, and markets
     Smart EVs that appeal to the large and growing base of technology-savvy middle-class consumers in
@@ -1034,9 +1120,10 @@ companies:
   stage: unknown
   status: ipo
   source: https://www.hsgcap.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: xpeng
+  slug: xpeng
+  matched_by: domain
 - name: XtaiPi
   description: XtalPi offers a range of technology solutions, services, and products to accelerate and
     empower innovation for biopharmaceutical and material science companies worldwide.
@@ -1056,9 +1143,10 @@ companies:
   stage: unknown
   status: active
   source: https://www.hsgcap.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: xtool
+  slug: xtool
+  matched_by: domain
 - name: Zai Lab
   description: Zai Lab is a Shanghai-based innovative biopharmaceutical company.
   url: https://zailaboratory.com
@@ -1066,9 +1154,10 @@ companies:
   stage: unknown
   status: ipo
   source: https://www.hsgcap.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: zai-lab
+  slug: zai-lab
+  matched_by: domain
 - name: ZTO Express
   description: ZTO Express is a leading express delivery company in China and one of the largest express
     delivery companies globally.
@@ -1077,6 +1166,7 @@ companies:
   stage: unknown
   status: ipo
   source: https://www.hsgcap.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: zto-express
+  slug: zto-express
+  matched_by: domain
