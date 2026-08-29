@@ -14,6 +14,17 @@ description: >-
   HSG operates from Hong Kong, Shanghai, Beijing, Shenzhen, London, Tokyo, and
   Singapore. Notable portfolio companies include Alibaba, ByteDance, Meituan,
   Pinduoduo, BYD, Nio, Xpeng, Airwallex, Canva, Monzo, and Moderna.
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
