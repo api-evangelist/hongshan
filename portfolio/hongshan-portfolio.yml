@@ -18,7 +18,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: abelzeta-pharma
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.abelzeta.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Agile Robots
   description: Agile Robots is an international high-tech company based in Munich. A spin-off of the German
     Aerospace Center (DLR), Agile Robots is pushing the boundaries of robotics.
@@ -29,7 +31,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: agile-robots
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.agile-robots.com/en/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Airwallex
   description: Airwallex is a leading global financial platform for modern businesses, offering trusted
     solutions to handle everything from payments, treasury, spend management and embedded finance.
@@ -86,7 +90,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: andpad
-  matched_by: name-slug
+  matched_by: domain
+  url: https://andpad.jp/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Ant Group
   description: Ant Group is a cloud-based financial platform that provides cloud computing services to
     financial enterprises and payment/financial services to consumers.
@@ -142,7 +148,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: b612
-  matched_by: name-slug
+  matched_by: domain
+  url: https://b612.snow.me/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Babycare
   description: Babycare supplies design-forward products for parents, newborns and toddlers.
   url: https://babycare.cn
@@ -165,7 +173,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: barinthus-biotherapeutics
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.barinthusbio.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Beam Therapeutics
   description: Beam Therapeutics is a biotechnology company engaged in creating genetic medicines through
     its base editing technology.
@@ -270,7 +280,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: chi-forest
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.chiforest.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: CHINT
   description: Founded in 1984, CHINT is a global green energy leader that accelerates innovation to meet
     the sustainability goals of businesses, governments, and communities.
@@ -362,7 +374,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: dizal-pharma
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.dizalpharma.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: EcoFlow
   description: EcoFlow is an eco-friendly energy solutions company. Since its founding in 2017, EcoFlow
     has provided peace of mind to customers in over 100 markets through its DELTA and RIVER portable power
@@ -387,6 +401,7 @@ companies:
   is_api_provider: false
   slug: edge-medical
   matched_by: name-slug
+  x-url-candidate: https://edgemedical.com
 - name: Envision Energy
   description: Envision Energy is a world-leading green technology company, providing renewable energy
     system solutions for global enterprises and institutions.
@@ -458,6 +473,7 @@ companies:
   is_api_provider: false
   slug: goodme
   matched_by: name-slug
+  x-url-candidate: https://goodme.ai
 - name: Guazi
   description: Guazi is a Chinese e-commerce company that provides consumer-to-consumer services via its
     web portal for buying and selling used cars.
@@ -480,8 +496,8 @@ companies:
   source: https://www.hsgcap.com/companies/
   in_network: false
   is_api_provider: false
-  x-name-collision: halara
   suggested_slug: thehalara-com
+  x-name-collision: halara
 - name: Heytea
   description: HEYTEA is the originator of innovative tea beverages.
   url: https://heytea.com
@@ -514,7 +530,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: hongene-biotech
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.hongene.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: HTX
   description: Founded in 2013, HTX is a comprehensive ecosystem of blockchain businesses that span digital
     asset trading, financial derivatives, wallets, research, investment, incubation and other areas.
@@ -709,7 +727,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: linsy
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.linsyhome.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Luxvisions
   description: Luxvisions Innovation Group was established in July 2018, and it has become an important
     business ally of Luxshare-ICT Precision Group. With the development of future AIOT applications, 3D
@@ -722,7 +742,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: luxvisions
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.luxvisions-inno.com/en-index.html
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Marshall
   description: Marshall is an audio, tech, and design company uniting musicians and music lovers through
     genre-breaking innovation.
@@ -931,7 +953,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: rivr
-  matched_by: name-slug
+  matched_by: domain
+  url: https://rivr.ai
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Saturnbird Coffee
   description: Saturnbird Coffee is a specialty coffee brand.
   sector: consumer
@@ -941,7 +965,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: saturnbird-coffee
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.saturnbird.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Segway-Ninebot
   description: Segway-Ninebot is a global enterprise in the field of intelligent short-distance transportation
     and service robots.
@@ -1044,7 +1070,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: ubras
-  matched_by: name-slug
+  matched_by: domain
+  url: https://ubras.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Univers
   description: Univers is a global decarbonization technology leader.
   url: https://univers.com
@@ -1066,7 +1094,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: urban-revivo
-  matched_by: name-slug
+  matched_by: domain
+  url: https://global.urbanrevivo.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Vipshop
   description: Vipshop is a leading online discount retailer for brands in China.
   url: https://vip.com
@@ -1087,7 +1117,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: we11done
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.we11-done.com/us/main/index.php
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Webull
   description: Webull is a leading digital investment platform built on next generation global infrastructure.
   url: https://webull.com
