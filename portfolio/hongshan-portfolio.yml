@@ -3,9 +3,9 @@ method: searched
 source: https://www.hsgcap.com/companies/
 summary:
   portfolio_total: 101
-  in_network: 99
+  in_network: 100
   api_providers: 9
-  missing: 2
+  missing: 1
   stubs_created: 0
 companies:
 - name: AbelZeta Pharma
@@ -113,9 +113,12 @@ companies:
   stage: unknown
   status: ipo
   source: https://www.hsgcap.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: arrivent-biopharma
+  url: https://www.arrivent.com
+  x-url-source: web search 2026-10-18
+  slug: arrivent
+  matched_by: domain
 - name: Asymchem
   description: Asymchem provides R&D and one-stop production services to the world’s top pharmaceutical
     companies.

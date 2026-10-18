@@ -2,13 +2,6 @@ generated: '2026-10-18'
 method: derived
 source_vc: hongshan
 leads:
-- name: ArriVent Biopharma
-  url: ''
-  suggested_slug: arrivent-biopharma
-  sector: healthcare
-  source_vc: hongshan
-  source: https://www.hsgcap.com/companies/
-  stub_created: false
 - name: Halara
   url: https://thehalara.com
   suggested_slug: thehalara-com
