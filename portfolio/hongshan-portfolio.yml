@@ -3,9 +3,9 @@ method: searched
 source: https://www.hsgcap.com/companies/
 summary:
   portfolio_total: 101
-  in_network: 101
-  api_providers: 10
-  missing: 0
+  in_network: 99
+  api_providers: 9
+  missing: 2
   stubs_created: 0
 companies:
 - name: AbelZeta Pharma
@@ -52,7 +52,7 @@ companies:
   source: https://www.hsgcap.com/companies/
   slug: alibaba
   in_network: true
-  is_api_provider: true
+  is_api_provider: false
   matched_by: domain
 - name: Amer Sports
   description: Amer Sports is a global group of the world’s most recognized and respected sports and outdoor
@@ -107,10 +107,9 @@ companies:
   stage: unknown
   status: ipo
   source: https://www.hsgcap.com/companies/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: arrivent-biopharma
-  matched_by: name-slug
+  suggested_slug: arrivent-biopharma
 - name: Asymchem
   description: Asymchem provides R&D and one-stop production services to the world’s top pharmaceutical
     companies.
@@ -479,10 +478,10 @@ companies:
   stage: unknown
   status: active
   source: https://www.hsgcap.com/companies/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: halara
-  matched_by: name-slug
+  x-name-collision: halara
+  suggested_slug: thehalara-com
 - name: Heytea
   description: HEYTEA is the originator of innovative tea beverages.
   url: https://heytea.com
@@ -871,7 +870,7 @@ companies:
   stage: unknown
   status: active
   source: https://www.hsgcap.com/companies/
-  slug: tidb
+  slug: pingcap
   in_network: true
   is_api_provider: true
   matched_by: domain
